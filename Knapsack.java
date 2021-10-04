@@ -35,11 +35,10 @@ class Knapsack {
     }
 
     public static void main(String[] args) {
-        Knapsack ks = new Knapsack(7, 4);
+        Knapsack ks = new Knapsack(17, 5);
 
-        System.out.println(ks.solve(new int[] { 1, 3, 4, 5 }, new int[] { 1, 4, 5, 7 }, 7, 4));
+        System.out.println(ks.solve(new int[] { 1, 3, 4, 5, 11 }, new int[] { 1, 4, 5, 7, 12 }, 17, 5));
         System.out.println();
-        ks.show();
     }
 
 }
